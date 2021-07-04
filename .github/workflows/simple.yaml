@@ -9,6 +9,6 @@ jobs:
       - name: python test
         run: |
           import platform
-          print(platform.processor())
+          print(platform.platform())
         shell: python
     
