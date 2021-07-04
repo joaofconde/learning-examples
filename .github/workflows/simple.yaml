@@ -6,6 +6,8 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: echo string
-        run: echo "Hello World"
+      - name: python test
+        run: |
+          import platform
+          print(platform.processor())
     
